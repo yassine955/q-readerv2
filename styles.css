@@ -1,0 +1,24 @@
+@font-face {
+   font-family: UTHMAN;
+   src: url("./fonts/UTHMANv2.ttf");
+}
+
+body {
+   margin: 0;
+   background: #111111;
+}
+h1 {
+   color: white;
+}
+
+button {
+   background: #7657d3;
+   border: none;
+   padding: 1rem;
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   border-radius: 1rem;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+}
