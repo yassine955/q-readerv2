@@ -32,7 +32,7 @@ const Chapter: React.FC<Props> = ({ quran }) => {
             dir="rtl"
             style={{
                background: "#0d0d0d",
-               margin: "0 5rem",
+
                color: "#FFF",
             }}
          >
@@ -44,7 +44,7 @@ const Chapter: React.FC<Props> = ({ quran }) => {
                      fontSize: "4rem",
                      padding: "1rem 15px",
                      lineHeight: "130px",
-                     wordSpacing: "40px",
+                     wordSpacing: "10px",
                   }}
                >{`${ayah?.numberInSurah}. ${ayah?.text}`}</p>
             ))}
